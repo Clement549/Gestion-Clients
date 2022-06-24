@@ -1,0 +1,65 @@
+﻿<UserControl x:Class="Esilv_BDD.MVVM.View.ClientsView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Esilv_BDD.MVVM.View"
+             xmlns:HelixToolkit="clr-namespace:HelixToolkit.Wpf;assembly=HelixToolkit.Wpf"
+             mc:Ignorable="d" d:DesignWidth="800" Height="487">
+
+    <Grid Margin="0,0,0,0">
+        <DataGrid Height="210"
+                  HorizontalAlignment="Left" 
+                  Name="individusDataGrid" 
+                  VerticalAlignment="Top" 
+                  Width="670" 
+                  Background="LightGray" 
+                  RowBackground="LightYellow" 
+                  AlternatingRowBackground="LightBlue" 
+                  BorderBrush="Gray" 
+                  BorderThickness="4"
+                  FontSize="14"
+                  PreviewKeyDown="OnPreviewKeyDown"
+                  Style="{StaticResource DataGridTheme}" Margin="0,-11,0,0"/>
+        <StackPanel Margin="0,35,0,0">
+            <DataGrid Height="210"
+                  HorizontalAlignment="Left" 
+                  Margin="0,185,0,0" 
+                  Name="boutiquesDataGrid" 
+                  Width="670" 
+                  Background="LightGray" 
+                  RowBackground="LightYellow" 
+                  AlternatingRowBackground="LightBlue" 
+                  BorderBrush="Gray" 
+                  BorderThickness="4"
+                  FontSize="14"
+                  PreviewKeyDown="OnPreviewKeyDown"
+                  Style="{StaticResource DataGridTheme}"/>
+
+            <StackPanel HorizontalAlignment="Center" Orientation="Horizontal">
+
+                <Button 
+                Margin="-20,15,0,0"
+                Height="35" 
+                Width="100" 
+                Style="{StaticResource ClickButtonTheme}"
+                Cursor="Hand"
+                Click="ExportFile" Content="Export"/>
+
+                <Button 
+                Margin="20,15,0,0"
+                Height="35" 
+                Width="100" 
+                Cursor="Hand"
+                Style="{StaticResource ClickButtonTheme}"
+                Click="DeleteRow" Content="Delete"/>
+
+            </StackPanel>
+
+        </StackPanel>
+
+    </Grid>
+
+
+
+</UserControl>

@@ -1,0 +1,209 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Esilv_BDD</name>
+    </assembly>
+    <members>
+        <member name="T:Esilv_BDD.App">
+            <summary>
+            Interaction logic for App.xaml
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:Esilv_BDD.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:Esilv_BDD.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:Esilv_BDD.MainWindow">
+            <summary>
+            Interaction logic for MainWindow.xaml
+            </summary>
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="M:Esilv_BDD.MainWindow.OnMouseLeftButtonDown(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            Déplacer la fenetre avec la souris
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Esilv_BDD.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Esilv_BDD.MVVM.View.AssemblagesView">
+            <summary>
+            AssemblagesView
+            </summary>
+        </member>
+        <member name="M:Esilv_BDD.MVVM.View.AssemblagesView.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Esilv_BDD.MVVM.View.BicyclettesView">
+            <summary>
+            Logique d'interaction pour OrdersView.xaml
+            </summary>
+            <summary>
+            BicyclettesView
+            </summary>
+        </member>
+        <member name="M:Esilv_BDD.MVVM.View.BicyclettesView.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Esilv_BDD.MVVM.View.ClientsView">
+            <summary>
+            Logique d'interaction pour OrdersView.xaml
+            </summary>
+            <summary>
+            ClientsView
+            </summary>
+        </member>
+        <member name="M:Esilv_BDD.MVVM.View.ClientsView.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Esilv_BDD.MVVM.View.CreateOrderView">
+            <summary>
+            CreateOrderView
+            </summary>
+        </member>
+        <member name="M:Esilv_BDD.MVVM.View.CreateOrderView.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Esilv_BDD.MVVM.View.FournisseursView">
+            <summary>
+            Logique d'interaction pour OrdersView.xaml
+            </summary>
+            <summary>
+            FournisseursView
+            </summary>
+        </member>
+        <member name="M:Esilv_BDD.MVVM.View.FournisseursView.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Esilv_BDD.MVVM.View.OrdersView">
+            <summary>
+            Logique d'interaction pour OrdersView.xaml
+            </summary>
+            <summary>
+            OrdersView
+            </summary>
+        </member>
+        <member name="M:Esilv_BDD.MVVM.View.OrdersView.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Esilv_BDD.MVVM.View.ProgrammesView">
+            <summary>
+            Logique d'interaction pour OrdersView.xaml
+            </summary>
+            <summary>
+            ProgrammesView
+            </summary>
+        </member>
+        <member name="M:Esilv_BDD.MVVM.View.ProgrammesView.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Esilv_BDD.MVVM.View.SettingsView">
+            <summary>
+            SettingsView
+            </summary>
+        </member>
+        <member name="M:Esilv_BDD.MVVM.View.SettingsView.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Esilv_BDD.MVVM.View.StatsView">
+            <summary>
+            Logique d'interaction pour HomeView.xaml
+            </summary>
+            <summary>
+            StatsView
+            </summary>
+        </member>
+        <member name="M:Esilv_BDD.MVVM.View.StatsView.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Esilv_BDD.MVVM.View.StocksView">
+            <summary>
+            Logique d'interaction pour OrdersView.xaml
+            </summary>
+            <summary>
+            StocksView
+            </summary>
+        </member>
+        <member name="M:Esilv_BDD.MVVM.View.StocksView.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Esilv_BDD.MVVM.View.WebView">
+            <summary>
+            Logique d'interaction pour OrdersView.xaml
+            </summary>
+            <summary>
+            WebView
+            </summary>
+        </member>
+        <member name="M:Esilv_BDD.MVVM.View.WebView.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:XamlGeneratedNamespace.GeneratedInternalTypeHelper">
+            <summary>
+            GeneratedInternalTypeHelper
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateInstance(System.Type,System.Globalization.CultureInfo)">
+            <summary>
+            CreateInstance
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.GetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            GetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.SetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            SetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateDelegate(System.Type,System.Object,System.String)">
+            <summary>
+            CreateDelegate
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.AddEventHandler(System.Reflection.EventInfo,System.Object,System.Delegate)">
+            <summary>
+            AddEventHandler
+            </summary>
+        </member>
+    </members>
+</doc>
