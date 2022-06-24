@@ -1,6 +1,8 @@
 # Présentation
 
+Ce projet est un logiciel permettant à une entreprise (ici de vente de vélos et de pièces détachées) de gérer son stock, les comptes clients, de générer des statistiques relatives aux ventes et d'exporter ces données vers différents formats (csv, json, xlm).
 
+Il s'agit d'un projet WPF, codé en C# sur Visual Studio. La base de donnée MySQL a été crée sur MySQL Workbench.
 
 # Gallerie
 
